@@ -7,3 +7,12 @@ C:\Users\Ralf Westphal\Documents\GitHub\dnp2013\Taschenrechner Brownfield\Tasche
 C:\Users\Ralf Westphal\Documents\GitHub\dnp2013\Taschenrechner Brownfield\Taschenrechner\obj\Debug\Taschenrechner.csproj.GenerateResource.Cache
 C:\Users\Ralf Westphal\Documents\GitHub\dnp2013\Taschenrechner Brownfield\Taschenrechner\obj\Debug\Taschenrechner.exe
 C:\Users\Ralf Westphal\Documents\GitHub\dnp2013\Taschenrechner Brownfield\Taschenrechner\obj\Debug\Taschenrechner.pdb
+C:\Users\Ralf Westphal\Documents\GitHub\Brownfields\Taschenrechner\Taschenrechner\bin\Debug\Taschenrechner.exe.config
+C:\Users\Ralf Westphal\Documents\GitHub\Brownfields\Taschenrechner\Taschenrechner\obj\Debug\Taschenrechner.exe
+C:\Users\Ralf Westphal\Documents\GitHub\Brownfields\Taschenrechner\Taschenrechner\obj\Debug\Taschenrechner.pdb
+C:\Users\Ralf Westphal\Documents\GitHub\Brownfields\Taschenrechner\Taschenrechner\bin\Debug\Taschenrechner.exe
+C:\Users\Ralf Westphal\Documents\GitHub\Brownfields\Taschenrechner\Taschenrechner\bin\Debug\Taschenrechner.pdb
+C:\Users\Ralf Westphal\Documents\GitHub\Brownfields\Taschenrechner\Taschenrechner\obj\Debug\Taschenrechner.csprojResolveAssemblyReference.cache
+C:\Users\Ralf Westphal\Documents\GitHub\Brownfields\Taschenrechner\Taschenrechner\obj\Debug\Taschenrechner.Form1.resources
+C:\Users\Ralf Westphal\Documents\GitHub\Brownfields\Taschenrechner\Taschenrechner\obj\Debug\Taschenrechner.Properties.Resources.resources
+C:\Users\Ralf Westphal\Documents\GitHub\Brownfields\Taschenrechner\Taschenrechner\obj\Debug\Taschenrechner.csproj.GenerateResource.Cache
