@@ -24,20 +24,21 @@ namespace Taschenrechner
         }
 
 
+        private int zahl;
+
         private void btnZiffer_Click(object sender, EventArgs e)
         {
             var ziffer = ((Button) sender).Text;
 
             if (_neueZahlBeginnen)
-                lblZahl.Text = ziffer;
+                zahl = int.Parse(ziffer);
             else
             {
-                var zahl = int.Parse(lblZahl.Text);
                 zahl = 10 * zahl + int.Parse(ziffer);
-
-                lblZahl.Text = zahl.ToString();               
             }
             _neueZahlBeginnen = false;
+
+            lblZahl.Text = zahl.ToString();   
         }
 
 
