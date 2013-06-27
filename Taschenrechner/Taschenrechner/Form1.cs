@@ -14,7 +14,6 @@ namespace Taschenrechner
     {
         private int _zwischenergebnis = 0;
         private string _vorherigeOp = "=";
-        private bool _neueZahlBeginnen = true;
 
 
 
@@ -24,21 +23,29 @@ namespace Taschenrechner
         }
 
 
-        private int zahl;
 
         private void btnZiffer_Click(object sender, EventArgs e)
         {
             var ziffer = ((Button) sender).Text;
 
+            Ziffer_zu_Zahl_hinzufügen(ziffer);
+
+            lblZahl.Text = zahl.ToString();   
+        }
+
+
+        private int zahl;
+        private bool _neueZahlBeginnen = true;
+
+        private void Ziffer_zu_Zahl_hinzufügen(string ziffer)
+        {
             if (_neueZahlBeginnen)
                 zahl = int.Parse(ziffer);
             else
             {
-                zahl = 10 * zahl + int.Parse(ziffer);
+                zahl = 10*zahl + int.Parse(ziffer);
             }
             _neueZahlBeginnen = false;
-
-            lblZahl.Text = zahl.ToString();   
         }
 
 
