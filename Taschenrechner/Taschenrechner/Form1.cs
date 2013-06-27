@@ -14,38 +14,23 @@ namespace Taschenrechner
     {
         private int _zwischenergebnis = 0;
         private string _vorherigeOp = "=";
-
+        private readonly Zahlenspeicher _zahlenspeicher;
 
 
         public Form1()
         {
             InitializeComponent();
+            _zahlenspeicher = new Zahlenspeicher();
         }
-
 
 
         private void btnZiffer_Click(object sender, EventArgs e)
         {
             var ziffer = ((Button) sender).Text;
 
-            Ziffer_zu_Zahl_hinzufügen(ziffer);
+            var zahl = _zahlenspeicher.Ziffer_zu_Zahl_hinzufügen(ziffer);
 
             lblZahl.Text = zahl.ToString();   
-        }
-
-
-        private int zahl;
-        private bool _neueZahlBeginnen = true;
-
-        private void Ziffer_zu_Zahl_hinzufügen(string ziffer)
-        {
-            if (_neueZahlBeginnen)
-                zahl = int.Parse(ziffer);
-            else
-            {
-                zahl = 10*zahl + int.Parse(ziffer);
-            }
-            _neueZahlBeginnen = false;
         }
 
 
@@ -96,7 +81,8 @@ namespace Taschenrechner
 
             lblZahl.Text = _zwischenergebnis.ToString();
             _vorherigeOp = aktuelleOp;
-            _neueZahlBeginnen = true;
+
+            _zahlenspeicher.Reset();
         }
     }
 }
