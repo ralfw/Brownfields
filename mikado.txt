@@ -2,5 +2,5 @@ zahlenakkumulation rausziehen
 	+ zahlenspeicher klasse
 		+ aggregation in funktion rausziehen
 			+ UI und domäne trennen
-	test schreiben
+	+ test schreiben
 		+ testklasse
