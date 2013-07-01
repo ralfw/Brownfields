@@ -49,9 +49,7 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controller.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Sound.cs" />
     <Compile Include="Ui.xaml.cs">
       <DependentUpon>Ui.xaml</DependentUpon>
     </Compile>
