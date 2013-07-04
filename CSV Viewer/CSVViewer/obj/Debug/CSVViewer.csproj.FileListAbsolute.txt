@@ -5,3 +5,6 @@ C:\Users\Ralf Westphal\Documents\GitHub\dnp2013\CSV Viewer Brownfield\CSVViewer\
 C:\Users\Ralf Westphal\Documents\GitHub\dnp2013\CSV Viewer Brownfield\CSVViewer\obj\Debug\CSVViewer.csprojResolveAssemblyReference.cache
 C:\Users\Ralf Westphal\Documents\GitHub\dnp2013\CSV Viewer Brownfield\CSVViewer\obj\Debug\CSVViewer.exe
 C:\Users\Ralf Westphal\Documents\GitHub\dnp2013\CSV Viewer Brownfield\CSVViewer\obj\Debug\CSVViewer.pdb
+C:\Users\Ralf Westphal\Documents\GitHub\Brownfields\CSV Viewer\CSVViewer\bin\Debug\CSVViewer.exe.config
+C:\Users\Ralf Westphal\Documents\GitHub\Brownfields\CSV Viewer\CSVViewer\obj\Debug\CSVViewer.exe
+C:\Users\Ralf Westphal\Documents\GitHub\Brownfields\CSV Viewer\CSVViewer\obj\Debug\CSVViewer.pdb
