@@ -1,2 +1,2 @@
-git clean -df
-git checkout -- .
+call git clean -df
+call git checkout -- *
