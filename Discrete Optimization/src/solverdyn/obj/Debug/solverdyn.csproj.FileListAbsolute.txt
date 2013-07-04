@@ -1,0 +1,7 @@
+C:\Users\Ralf Westphal\Documents\GitHub\Brownfields\Discrete Optimization\bin\solverdyn.exe.config
+C:\Users\Ralf Westphal\Documents\GitHub\Brownfields\Discrete Optimization\bin\ks_test
+C:\Users\Ralf Westphal\Documents\GitHub\Brownfields\Discrete Optimization\bin\solverdyn.exe
+C:\Users\Ralf Westphal\Documents\GitHub\Brownfields\Discrete Optimization\bin\solverdyn.pdb
+C:\Users\Ralf Westphal\Documents\GitHub\Brownfields\Discrete Optimization\src\solverdyn\obj\Debug\solverdyn.csprojResolveAssemblyReference.cache
+C:\Users\Ralf Westphal\Documents\GitHub\Brownfields\Discrete Optimization\src\solverdyn\obj\Debug\solverdyn.exe
+C:\Users\Ralf Westphal\Documents\GitHub\Brownfields\Discrete Optimization\src\solverdyn\obj\Debug\solverdyn.pdb
