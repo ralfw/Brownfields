@@ -1,0 +1,23 @@
+﻿<Window x:Class="Kassenbuch.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" Initialized="Window_Initialized">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="44"/>
+      <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+    <DataGrid Name="MainTable" IsReadOnly="true" ItemsSource="{Binding Sheets}" AutoGenerateColumns="False" CanUserResizeColumns="True" Grid.Row="1" MouseDoubleClick="MainTable_MouseDoubleClick">
+      <DataGrid.Columns>
+        <DataGridTextColumn Header="Datum" Binding="{Binding Date, StringFormat='d'}"/>
+        <DataGridTextColumn Header="Übertrag" Binding="{Binding Carry}"/>
+        <DataGridTextColumn Header="Betrag" Binding="{Binding TotalAmount}"/>
+        <DataGridTextColumn Header="Kassenstand" Binding="{Binding Balance}"/>
+      </DataGrid.Columns>
+    </DataGrid>
+    <Button Content="Hinzufügen" HorizontalAlignment="Left" Margin="10" Width="75" Click="Add_Click"/>
+    <Button Content="Speichern" HorizontalAlignment="Right" Margin="10" Width="75" Click="Save_Click"/>
+    <Button Content="Exportieren" HorizontalAlignment="Right" Margin="0,10,90,10" Width="75" Click="Exportieren_Click"/>
+    <DatePicker Name="NewSheetDate" HorizontalAlignment="Left" Margin="90,10,10,10" VerticalAlignment="Top"/>
+  </Grid>
+</Window>
